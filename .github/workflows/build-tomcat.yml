@@ -19,7 +19,7 @@ jobs:
     - name: Check out Apache Tomcat
       uses: actions/checkout@v2
       with:
-        repository: deepaKaur/learn-github-actions/ch03 # Repository name with owner
+        repository: DeepaKaur/learn-github-actions/ch03 # Repository name with owner
         ref: master               # The branch, tag or SHA to checkout
         path: ./03_03            # Relative path under $GITHUB_WORKSPACE
 
